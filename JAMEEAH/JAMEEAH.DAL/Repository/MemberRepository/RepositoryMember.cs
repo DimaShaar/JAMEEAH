@@ -10,7 +10,7 @@ namespace JAMEEAH.DAL.Repository.MemberRepository
 {
     public class RepositoryMember : IRepositoryMember
     {
-        public readonly ApplicationDBContext _dbContext;
+        private readonly ApplicationDBContext _dbContext;
         public RepositoryMember(ApplicationDBContext dbContext)
         {
             _dbContext = dbContext;

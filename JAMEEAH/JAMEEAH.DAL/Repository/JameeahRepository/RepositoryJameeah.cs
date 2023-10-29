@@ -11,7 +11,7 @@ namespace JAMEEAH.DAL.Repository.JameeahRepository
 {
     public class RepositoryJameeah : IRepositoryJameeah
     {
-        public readonly ApplicationDBContext _dbContext;
+        private readonly ApplicationDBContext _dbContext;
         public RepositoryJameeah(ApplicationDBContext dbContext)
         {
             _dbContext = dbContext; 
