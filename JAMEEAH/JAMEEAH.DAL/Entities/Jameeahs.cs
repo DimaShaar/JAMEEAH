@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace JAMEEAH.DAL.Entities
 {
-    public class Jameeahs
+    public class _Jameeah
     {
         public int Id { get; set; }
         public string Name { get; set; }
@@ -16,6 +16,6 @@ namespace JAMEEAH.DAL.Entities
         public string TotalOfPayment { get; set; }
         public string InstallmentsCount { get; set; }
 
-        public virtual List<Members> Members { get; set; }
+        public virtual List<Member> Members { get; set; }
     }
 }

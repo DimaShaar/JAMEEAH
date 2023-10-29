@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace JAMEEAH.DAL.Entities
 {
-    public class Members
+    public class Member
     {
         public int Id { get; set; }
 

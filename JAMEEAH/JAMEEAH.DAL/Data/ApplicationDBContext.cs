@@ -13,8 +13,8 @@ namespace Jameeah.Domain.Data
 
         public ApplicationDBContext(DbContextOptions options) : base(options) { }
 
-        public DbSet<Jameeahs> Jameeahs { get; set; }
-        public DbSet<Members> Members { get; set; }
+        public DbSet<_Jameeah> Jameeah { get; set; }
+        public DbSet<Member> Members { get; set; }
 
     }
 }
